@@ -1,0 +1,45 @@
+// Place all the styles related to the Questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  width: 50%;
+  margin: auto;
+}
+
+div {
+  border-left: 6px solid #80808054;
+  padding: 10px 20px;
+  margin: 10px;
+}
+
+#coach-response {
+  background-color: #feffe1;
+}
+
+a {
+  margin: 20px;
+  display: inline-block;
+  text-decoration: none;
+  color: #547799;
+}
+
+form {
+  display: flex;
+  height: 50px;
+  input:first-child {
+    width: 100%;
+    border: solid #8080805e;
+    border-width: 1.6px 0 1.6px 1.6px;
+    border-radius: 8px 0 0 8px;
+  }
+  input:last-child {
+    border-radius: 0 10px 10px 0;
+    background-color: #337ab7;
+    color: white;
+    border: navajowhite;
+    padding: 0;
+    padding: 0 24px;
+    font-size: 16px;
+    cursor: pointer;
+}
+}
